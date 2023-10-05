@@ -138,7 +138,7 @@ const Contact = () => {
       </div>
       <div className="pt-5 w-full h-full flex text-center items-center justify-center">
         <p className="text-sm max-w-[240px]">
-          Copyright 2023 C by D Co,Ltd.All rights reserved{" "}
+        &copy; Copyright 2023 C by D Co,Ltd.All rights reserved{" "}
         </p>
       </div>
     </div>
