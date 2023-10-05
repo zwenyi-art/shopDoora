@@ -28,7 +28,7 @@ const Member = () => {
             <p className="max-w-[240px] text-base">
               Be a Vape Pi member and get our special exclusive offers
             </p>
-            <button className="bg-black/50     w-fit px-6 py-2 rounded-full ">
+            <button className="bg-black/50  border-[0.5px]   w-fit px-6 py-2 rounded-full ">
               View
             </button>
           </div>

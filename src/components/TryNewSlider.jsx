@@ -51,7 +51,7 @@ const TryNewSlider = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="flex-1 w-full z-10 h-full px-1 ">
+      <div className="text-white flex-1 w-full z-10 h-full px-1 ">
         <button className="bg-black/40 w-fit h-[100px] overflow-hidden rounded-md flex items-center justify-center px-1" onClick={handleNext}>
           <FiArrowRight></FiArrowRight>
         </button>

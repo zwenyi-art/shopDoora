@@ -16,7 +16,7 @@ const NewSlider = () => {
       slidesPerView={1}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
-      // autoplay={{ delay: 2000, disableOnInteraction: false }}
+      autoplay={{ delay: 2000, disableOnInteraction: false }}
       className="w-full h-full rounded-md  overflow-hidden"
     >
       <SwiperSlide>

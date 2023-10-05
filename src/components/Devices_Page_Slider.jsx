@@ -49,7 +49,67 @@ const Devices_Page_Slider = () => {
         <SwiperSlide>
           <div className="w-[100px] h-[140px] px-2 flex flex-col items-center justify-center gap-y-3">
             <div className="w-full h-fit  rounded-md flex items-center justify-center bg-[#eaeaea] pt-4">
-              <img src={box1} alt="" className="h-[70px] " />
+              <img src={box2} alt="" className="h-[70px] " />
+            </div>
+            <div className="flex flex-col text-white items-center justify-center">
+              <h1 className="text-[10px]">Refreshing Mint</h1>
+              <p className="text-[10px]">30,000 MMK</p>
+              <div className="text-[#fcc100] text-[10px] flex gap-x-1 flex-row items-center">
+                <AiFillStar></AiFillStar>
+                <p>600 points</p>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-[100px] h-[140px] px-2 flex flex-col items-center justify-center gap-y-3">
+            <div className="w-full h-fit  rounded-md flex items-center justify-center bg-[#eaeaea] pt-4">
+              <img src={box3} alt="" className="h-[70px] " />
+            </div>
+            <div className="flex flex-col text-white items-center justify-center">
+              <h1 className="text-[10px]">Refreshing Mint</h1>
+              <p className="text-[10px]">30,000 MMK</p>
+              <div className="text-[#fcc100] text-[10px] flex gap-x-1 flex-row items-center">
+                <AiFillStar></AiFillStar>
+                <p>600 points</p>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-[100px] h-[140px] px-2 flex flex-col items-center justify-center gap-y-3">
+            <div className="w-full h-fit  rounded-md flex items-center justify-center bg-[#eaeaea] pt-4">
+              <img src={box4} alt="" className="h-[70px] " />
+            </div>
+            <div className="flex flex-col text-white items-center justify-center">
+              <h1 className="text-[10px]">Refreshing Mint</h1>
+              <p className="text-[10px]">30,000 MMK</p>
+              <div className="text-[#fcc100] text-[10px] flex gap-x-1 flex-row items-center">
+                <AiFillStar></AiFillStar>
+                <p>600 points</p>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-[100px] h-[140px] px-2 flex flex-col items-center justify-center gap-y-3">
+            <div className="w-full h-fit  rounded-md flex items-center justify-center bg-[#eaeaea] pt-4">
+              <img src={box5} alt="" className="h-[70px] " />
+            </div>
+            <div className="flex flex-col text-white items-center justify-center">
+              <h1 className="text-[10px]">Refreshing Mint</h1>
+              <p className="text-[10px]">30,000 MMK</p>
+              <div className="text-[#fcc100] text-[10px] flex gap-x-1 flex-row items-center">
+                <AiFillStar></AiFillStar>
+                <p>600 points</p>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-[100px] h-[140px] px-2 flex flex-col items-center justify-center gap-y-3">
+            <div className="w-full h-fit  rounded-md flex items-center justify-center bg-[#eaeaea] pt-4">
+              <img src={box6} alt="" className="h-[70px] " />
             </div>
             <div className="flex flex-col text-white items-center justify-center">
               <h1 className="text-[10px]">Refreshing Mint</h1>
@@ -62,9 +122,12 @@ const Devices_Page_Slider = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      
-      <div className="flex-1 w-full flex items-center z-10 h-full px-1 ">
-        <button className="bg-black/40 w-fit h-[100px] overflow-hidden rounded-md flex items-center justify-center px-1" onClick={handleNext}>
+
+      <div className="flex-1 text-white font-semibold w-full flex items-center z-10 h-full px-1 ">
+        <button
+          className="bg-black/40 w-fit h-[100px] overflow-hidden rounded-md flex items-center justify-center px-1"
+          onClick={handleNext}
+        >
           <FiArrowRight></FiArrowRight>
         </button>
       </div>
